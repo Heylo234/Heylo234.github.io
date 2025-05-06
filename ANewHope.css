@@ -1,0 +1,50 @@
+/*The RED boxes are there so I can see the Flexboxes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+header{
+    text-align: center;
+    border-bottom: 3px solid #FFFFFF;
+    background-color: #1E1E1E;
+    margin:0;
+    padding: 0;
+    height: 13.5vh;
+    position: sticky;
+    top: 0px;
+}
+body{
+    background-image: url(Media/Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+h1{
+    color:#FFFFFF;
+}
+
+/*Item 1 Container 1*/
+.container1{
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+    margin-top: 60px;
+    border: solid 1px #ff0000;
+}
+
+/* Item 1 Picture 1*/
+.images{
+    width: 20%;
+    margin: 20px 0px 0px 160px;
+}
+
+/* Item 1 Container 2*/
+.item1C2{
+
+    border: solid 1px #ff0000;
+}
+
+/*Item 2 Text 1*/
+.item2T1{
+    font-size: 15px;
+    font-family: 'Roboto';
+}
